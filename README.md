@@ -19,4 +19,4 @@ And you're good to go.
 * [Bootstrap Grid](https://getbootstrap.com/) - Grid system
 * [Axios](https://github.com/axios/axios) - HTTP Requests
 * [npm](https://www.npmjs.com/) - Package management
-* [Slick Slider](hhttps://kenwheeler.github.io/slick/) - Products images slider
+* [Slick Slider](https://kenwheeler.github.io/slick/) - Products images slider
