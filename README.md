@@ -12,6 +12,7 @@ $ npm start
 ```
 
 And you're good to go.
+Server will be running on localhost:8080
 
 ## Built With
 
