@@ -20,7 +20,6 @@ axios.get('assets/products.json')
             section.innerHTML += productNode
         })
         const products = document.querySelectorAll('.product')
-        const removeIcon = document.querySelector
         products.forEach(function(product){
             product.addEventListener('click', function(e){
                 if(e.target === product.querySelector('.remove-cart')){
