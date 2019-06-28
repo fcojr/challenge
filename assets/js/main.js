@@ -30,6 +30,7 @@ axios.get('assets/products.json')
                 addProductToCart(product)
             })
         })
+        initSliders()
     })
     
 var addProductToCart = product => {
@@ -56,6 +57,16 @@ var getProductValue = product => {
 }
 
 /* Global */
+var initSliders = () => {
+    $('.img-carousel').slick({
+        infinite: true,
+        arrows: false,
+        dots: false,
+        autoplay: true,
+        autoplaySpeed: 2000,
+        pauseOnHover: true,
+    })
+}
 window.onload = function(){
     /* Mobile menu */
     let menuIcon = document.querySelector('.fa-bars')
@@ -68,12 +79,4 @@ window.onload = function(){
         })
     })
     /* Initing the sliders */ 
-    $('.img-carousel').slick({
-        infinite: true,
-        arrows: false,
-        dots: false,
-        autoplay: true,
-        autoplaySpeed: 2000,
-        pauseOnHover: true,
-    })
 }
