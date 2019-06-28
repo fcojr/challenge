@@ -21,3 +21,5 @@ Server will be running on localhost:8080
 * [Axios](https://github.com/axios/axios) - HTTP Requests
 * [npm](https://www.npmjs.com/) - Package management
 * [Slick Slider](https://kenwheeler.github.io/slick/) - Products images slider
+* [FontAwesome](https://fontawesome.com) - Icons
+* [Google Fonts](fonts.google.com) - Fonts
